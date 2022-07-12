@@ -1,0 +1,84 @@
+html,body{
+    margin: 0;
+}
+
+.form_container{
+    height: 100vh;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.input_box input, select{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    width: 350px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 40px;
+    border: 2px solid #a0a0a0;
+    background: none;
+    outline: none;
+    margin-top: 30px;
+    color: #686868;
+}
+.input_box select{
+    height: 44px;
+    width: 374px;
+    
+}   
+
+.input_box input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; 
+}
+
+/* .input_box input:focus{
+    
+} */
+.error_msg{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff2c2c;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.btn_box{
+    margin-top: 30px;
+    text-align: center;
+}
+.btn{
+    height: 40px;
+    width: 180px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #ff2c2c;
+    border-radius: 10px;
+}
+
+.redir_box{
+    display:block;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+}
+
+p{
+    margin: 0;
+    font-weight: lighter;
+    margin-right: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: #ff2c2c;
+}

@@ -1,0 +1,85 @@
+  body{
+    padding: 0;
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+    background-color:whitesmoke;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: none;
+    }
+
+  .maincontent{
+    padding-bottom: 15%;
+    text-align: center;
+  }
+
+  .maincontent h2, .maincontent h3{
+      color: brown;
+  }
+
+  .navigasi{
+    display: inline-block;
+    width: 300px;
+    height: 60vh;
+    border-radius: 8px;
+    margin-left: 45px;
+    padding: 10px;
+    background-color: rgb(199, 198, 198);
+  }
+
+  .navigasi ol{
+      list-style: none;
+      display: block;
+  }
+
+  .navigasi ol li a{
+      padding: 8px 0px;
+      display: block;
+      position: relative;
+      padding-right: 30px;
+  }
+  .navigasi a{
+    color: rgb(105, 105, 105);
+    text-decoration: none;
+    font-size: 25px;
+    overflow: hidden;
+  }
+
+  .navigasi ol li a:hover{
+    color: black;
+  }
+
+  .profile_list {
+    display: block;
+    float: right;
+    margin-top: 20px;
+    margin-right: 280px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .profile a{
+    color: rgb(102, 22, 22);
+    text-decoration: none;
+    font-size: 25px;
+    overflow: hidden;
+
+  }
+
+
+  .btn_box{
+    text-align: center;
+    }
+
+  .btn{
+    height: 40px;
+    width: 180px;
+    border: none;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #ff2c2c;
+    border-radius: 10px;
+    }
